@@ -1,0 +1,11 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "hello-world-sam"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-j6ff0qj6mzi"
+s3_prefix = "hello-world-sam"
+region = "ap-southeast-1"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
+image_repositories = []
